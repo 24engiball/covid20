@@ -23322,4 +23322,3 @@ cr.getObjectRefTable = function () { return [
 	cr.behaviors.Pathfinding.prototype.cnds.IsMoving,
 	cr.system_object.prototype.acts.SetLayerVisible
 ];};
-
