@@ -23270,6 +23270,7 @@ cr.getObjectRefTable = function () { return [
 	cr.behaviors.Pin.prototype.acts.Pin,
 	cr.plugins_.Sprite.prototype.acts.Destroy,
 	cr.behaviors.Pathfinding.prototype.acts.FindPath,
+	cr.system_object.prototype.acts.AddVar,
 	cr.plugins_.Function.prototype.cnds.OnFunction,
 	cr.plugins_.Function.prototype.exps.Param,
 	cr.plugins_.Text.prototype.acts.SetPosToObject,
@@ -23301,7 +23302,6 @@ cr.getObjectRefTable = function () { return [
 	cr.plugins_.Sprite.prototype.acts.LoadFromJsonString,
 	cr.plugins_.Rex_SimpleEncDecXOR.prototype.exps.Decrypt,
 	cr.plugins_.LocalStorage.prototype.exps.ItemValue,
-	cr.plugins_.Mouse.prototype.cnds.OnObjectClicked,
 	cr.behaviors.solid.prototype.cnds.IsEnabled,
 	cr.behaviors.solid.prototype.acts.SetEnabled,
 	cr.plugins_.Sprite.prototype.acts.SetPosToObject,
@@ -23313,11 +23313,12 @@ cr.getObjectRefTable = function () { return [
 	cr.behaviors.Pin.prototype.acts.Unpin,
 	cr.plugins_.Sprite.prototype.cnds.OnAnimFinished,
 	cr.plugins_.Sprite.prototype.cnds.IsAnimPlaying,
+	cr.plugins_.Keyboard.prototype.cnds.OnKey,
 	cr.plugins_.Sprite.prototype.exps.Count,
-	cr.system_object.prototype.acts.AddVar,
 	cr.plugins_.TextBox.prototype.exps.Text,
 	cr.behaviors.Pathfinding.prototype.cnds.OnPathFound,
 	cr.behaviors.Pathfinding.prototype.acts.StartMoving,
+	cr.behaviors.Pathfinding.prototype.acts.SetMaxSpeed,
 	cr.behaviors.Pathfinding.prototype.cnds.IsMoving,
 	cr.system_object.prototype.acts.SetLayerVisible,
 	cr.plugins_.PhotonChat.prototype.cnds.isConnectedToFrontEnd,
@@ -23329,5 +23330,6 @@ cr.getObjectRefTable = function () { return [
 	cr.plugins_.PhotonChat.prototype.cnds.onMessageInChannel,
 	cr.plugins_.PhotonChat.prototype.exps.Sender,
 	cr.plugins_.PhotonChat.prototype.exps.Message,
-	cr.system_object.prototype.exps.newline
+	cr.system_object.prototype.exps.newline,
+	cr.system_object.prototype.acts.SubVar
 ];};
