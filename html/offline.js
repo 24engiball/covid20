@@ -1,5 +1,5 @@
 ﻿{
-	"version": 1585577598,
+	"version": 1585578921,
 	"fileList": [
 		"data.js",
 		"c2runtime.js",
@@ -56,6 +56,12 @@
 		"images/bhand-sheet0.png",
 		"images/bhand-sheet1.png",
 		"images/handpoint-sheet0.png",
+		"media/nff-alien-reaction.m4a",
+		"media/nff-alien-reaction.ogg",
+		"media/coin_counter_09.m4a",
+		"media/coin_counter_09.ogg",
+		"media/hard-and-heavy.m4a",
+		"media/hard-and-heavy.ogg",
 		"icon-16.png",
 		"icon-32.png",
 		"icon-114.png",
