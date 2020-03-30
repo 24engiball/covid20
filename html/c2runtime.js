@@ -23331,5 +23331,12 @@ cr.getObjectRefTable = function () { return [
 	cr.plugins_.PhotonChat.prototype.exps.Sender,
 	cr.plugins_.PhotonChat.prototype.exps.Message,
 	cr.system_object.prototype.exps.newline,
-	cr.system_object.prototype.acts.SubVar
+	cr.system_object.prototype.acts.SubVar,
+	cr.plugins_.Sprite.prototype.acts.SetAnimFrame,
+	cr.plugins_.Arr.prototype.acts.SetSize,
+	cr.system_object.prototype.cnds.For,
+	cr.plugins_.Arr.prototype.acts.SetX,
+	cr.system_object.prototype.cnds.ForEach,
+	cr.plugins_.Arr.prototype.exps.Width,
+	cr.plugins_.Arr.prototype.acts.Delete
 ];};

@@ -1,5 +1,5 @@
 ﻿{
-	"version": 1585525918,
+	"version": 1585536366,
 	"fileList": [
 		"data.js",
 		"c2runtime.js",
@@ -53,6 +53,9 @@
 		"images/bathroom-sheet0.png",
 		"images/buymaskbutton-sheet0.png",
 		"images/loadgame-sheet0.png",
+		"images/bhand-sheet0.png",
+		"images/bhand-sheet1.png",
+		"images/handpoint-sheet0.png",
 		"icon-16.png",
 		"icon-32.png",
 		"icon-114.png",
